@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KRPC.DockingCamera</name>
+    </assembly>
+    <members>
+        <member name="T:KRPC.DockingCamera.Addon">
+             <summary>
+             kRPC Camera addon.
+             </summary>
+            </member>
+        <member name="M:KRPC.DockingCamera.Addon.Start">
+             <summary>
+             Load the Camera API.
+             </summary>
+            </member>
+        <member name="T:KRPC.DockingCamera.Camera">
+             <summary>
+             A Docking Camera.
+             </summary>
+            </member>
+        <member name="M:KRPC.DockingCamera.Camera.Equals(KRPC.DockingCamera.Camera)">
+             <summary>
+             Check that the cameras are the same.
+             </summary>
+            </member>
+        <member name="M:KRPC.DockingCamera.Camera.GetHashCode">
+             <summary>
+             Hash the Camera.
+             </summary>
+            </member>
+        <member name="P:KRPC.DockingCamera.Camera.Part">
+             <summary>
+             Get the part containing this camera.
+             </summary>
+            </member>
+        <member name="P:KRPC.DockingCamera.Camera.Image">
+             <summary>
+             Get an image.
+             Returns an empty byte array on failure.
+             </summary>
+            </member>
+        <member name="T:KRPC.DockingCamera.DockingCamera">
+             <summary>
+             Camera service.
+             </summary>
+            </member>
+        <member name="P:KRPC.DockingCamera.DockingCamera.Available">
+             <summary>
+             Check if the Camera API is available.
+             </summary>
+            </member>
+        <member name="M:KRPC.DockingCamera.DockingCamera.Camera(KRPC.SpaceCenter.Services.Parts.Part)">
+             <summary>
+             Get a Camera part.
+             </summary>
+            </member>
+    </members>
+</doc>

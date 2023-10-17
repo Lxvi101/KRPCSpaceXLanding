@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>KRPC.LiDAR</name>
+    </assembly>
+    <members>
+        <member name="T:KRPC.LiDAR.Addon">
+             <summary>
+             kRPC LiDAR addon.
+             </summary>
+            </member>
+        <member name="M:KRPC.LiDAR.Addon.Start">
+             <summary>
+             Load the LiDAR API.
+             </summary>
+            </member>
+        <member name="T:KRPC.LiDAR.Laser">
+             <summary>
+             A LaserDist laser.
+             </summary>
+            </member>
+        <member name="M:KRPC.LiDAR.Laser.Equals(KRPC.LiDAR.Laser)">
+             <summary>
+             Check that the LiDAR are the same.
+             </summary>
+            </member>
+        <member name="M:KRPC.LiDAR.Laser.GetHashCode">
+             <summary>
+             Hash the LiDAR.
+             </summary>
+            </member>
+        <member name="P:KRPC.LiDAR.Laser.Part">
+             <summary>
+             Get the part containing this LiDAR.
+             </summary>
+            </member>
+        <member name="P:KRPC.LiDAR.Laser.Cloud">
+             <summary>
+             Get the point cloud from the LiDAR.
+             Returns an empty list on failure.
+             </summary>
+            </member>
+        <member name="T:KRPC.LiDAR.LiDAR">
+             <summary>
+             LaserDist service.
+             </summary>
+            </member>
+        <member name="P:KRPC.LiDAR.LiDAR.Available">
+             <summary>
+             Check if the LaserDist API is available.
+             </summary>
+            </member>
+        <member name="M:KRPC.LiDAR.LiDAR.Laser(KRPC.SpaceCenter.Services.Parts.Part)">
+             <summary>
+             Get a LaserDist part.
+             </summary>
+            </member>
+    </members>
+</doc>

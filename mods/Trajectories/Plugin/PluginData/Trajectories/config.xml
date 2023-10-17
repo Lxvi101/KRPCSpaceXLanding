@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <bool name="UseBlizzyToolbar">1</bool>
+    <bool name="DisplayTrajectories">1</bool>
+    <bool name="DisplayTrajectoriesInFlight">1</bool>
+    <bool name="AlwaysUpdate">1</bool>
+    <bool name="DisplayCompleteTrajectory">0</bool>
+    <bool name="BodyFixedMode">0</bool>
+    <bool name="AutoUpdateAeroDynamicModel">1</bool>
+    <bool name="MainGUIEnabled">0</bool>
+    <vector2 name="MainGUIWindowPos">
+        <x>0.5</x>
+        <y>0.5</y>
+    </vector2>
+    <int name="MainGUICurrentPage">0</int>
+    <double name="IntegrationStepSize">2</double>
+    <int name="MaxPatchCount">4</int>
+    <int name="MaxFramesPerPatch">15</int>
+    <bool name="UseCache">1</bool>
+    <bool name="DefaultDescentIsRetro">1</bool>
+    <bool name="EnableDisplayTrajectoryHotKeyMod">1</bool>
+    <keycode name="DisplayTrajectoryHotKeyMod">LeftAlt</keycode>
+    <keycode name="DisplayTrajectoryHotKey">T</keycode>
+    <bool name="EnableMainGUIHotKeyMod">1</bool>
+    <keycode name="MainGUIHotKeyMod">RightAlt</keycode>
+    <keycode name="MainGUIHotKey">T</keycode>
+</config>

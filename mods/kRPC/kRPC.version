@@ -1,0 +1,9 @@
+{
+  "NAME": "kRPC",
+  "URL": "http://ksp-avc.cybutek.net/version.php?id=254",
+  "DOWNLOAD": "https://github.com/krpc/krpc/releases/latest",
+  "VERSION": { "MAJOR": 0, "MINOR": 5, "PATCH": 2 },
+  "KSP_VERSION": { "MAJOR": 1, "MINOR": 12, "PATCH": 5 },
+  "KSP_VERSION_MAX": { "MAJOR": 1, "MINOR": 12, "PATCH": 5 },
+  "KSP_VERSION_MIN": { "MAJOR": 1, "MINOR": 8, "PATCH": 0 }
+}
